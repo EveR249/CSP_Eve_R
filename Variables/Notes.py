@@ -1,0 +1,1 @@
+# Eve Richardson, Variables Notes
