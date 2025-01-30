@@ -1,41 +1,41 @@
 #Eve Richardson, Variables Practice Python
 
-name = input("Eve")
-
-number = input("7")
-
-large_number = input("101")
-
-breakfast = input("Granola Bar")
-
-color = input("Sage Green")
-
-school = input("UCAS")
-
-year = input("2025")
-
-eye = input ("Greenish")
-
-age = ("14")
-
-subject = input("Biology")
+name = "Eve"
 
 print(name)
 
+number = "7"
+
 print(number)
+
+large_number = "101"
 
 print(large_number)
 
+breakfast = "Granola Bar"
+
 print(breakfast)
+
+color = "Sage Green"
 
 print(color)
 
+school = "UCAS"
+
 print(school)
+
+year = "2025"
 
 print(year)
 
+eye = "Greenish"
+
 print(eye)
 
+age = "14"
+
 print(age) 
+
+subject = "Biology"
 
 print(subject)
