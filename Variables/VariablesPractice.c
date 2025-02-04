@@ -1,4 +1,4 @@
-// Eve Richardson Variables Notes
+// Eve Richardson Variables Practice
 #include <stdio.h>
 
 char name[] = "Eve";
