@@ -1,11 +1,11 @@
+//Eve Richardson First Program C
 #include <stdio.h>
 
-char name[20];
+int mynum;
 
 int main(void){
-    printf("What is your name: \n");
-    fgets(name, sizeof(name), stdin);
-    printf("%s, welcome to my program.\n", name);
-    printf("It doesn't do anything yet.\n");
+    printf("Type your favorite number: \n");
+    scanf("%d", &mynum);
+    printf("Your favorite number is %d", mynum);
     return 0;
 }
