@@ -1,4 +1,4 @@
-// Eve Richardson, Template
+// Eve Richardson, Expressions Practice C
 #include <stdio.h>
 #include <math.h>
 int eq1 = 7-24/8*4+6;
