@@ -1,4 +1,4 @@
-# Eve Richardson, Variables Notes
+# Eve Richardson, Variables Notes Python
 
 name = input("Please tell me your name: ")
 
