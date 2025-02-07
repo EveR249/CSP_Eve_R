@@ -16,24 +16,26 @@ transpo = float(input("What is your monthly transportation spending?\n"))
 savings = float(income/10)
 # Calculate spending money income - (rent+utilities+transpo+groceries+savings) (variable)
 spending = float(income-(rent+utilities+transpo+groceries+savings))
-# Calculate percent of rent (rent/income) (variable)
-rentp = float(rent/income)
+# Calculate percent of rent (rent/income)*100 (variable)
+rentpc = float(rent/income)*100
 # Calculate percent of utilities (utilities/income) (variable)
-utilitiesp = float(utilities/income)
+utilitiespc = float(utilities/income)*100
 # Calculate percent of groceries (groceries/income) (variable)
-groceriesp = float(groceries/income)
+groceriespc = float(groceries/income)*100
 # Calculate percent of transportation (transportation/income) (variable)
-transpop = float(transpo/income)
+transpopc = float(transpo/income)*100
 # Calculate percent of spending 
-spendingp = float(spending/income)
+spendingpc = float(spending/income)*100
 # tell user catagory spending amount AND percent for rent ("You spend $XX.XX on rent and that is XX% of your income")
-
+print(f"You spend ${rent} on rent and that is {rentpc: .2}% of your income.")
 # tell user catagory spending amount AND percent for utilities ("You spend $XX.XX on utilities and that is XX% of your income")
-
+print(f"You spend ${utilities} on utilities and that is {utilitiespc: .2}% of your income.")
 # tell user catagory spending amount AND percent for groceries ("You groceries $XX.XX on rent and that is XX% of your income")
-
+print(f"You spend ${groceries} on groceries and that is {groceriespc: .2}% of your income.")
 # tell user catagory spending amount AND percent for transportation ("You spend $XX.XX on transportation and that is XX% of your income")
-
+print(f"You spend ${transpo} on transportation and that is {transpopc: .2}% of your income.")
 # tell user catagory spending amount AND percent for spending ("You spend $XX.XX on spending and that is XX% of your income")
-
+print(f"You have ${spending} left to spend and that is {spendingpc: .2}% of your income.")
 # tell user catagory spending amount AND percent for saving ("You should save $XX.XX and that is 10% of your income")
+print(f"You should save 10% of your income and that is {savings: .2}.")
+print("Thank you for using my budget calculator.")
