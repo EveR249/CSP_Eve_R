@@ -27,11 +27,7 @@ transpop = float(transpo/income)
 # Calculate percent of spending 
 spendingp = float(spending/income)
 # tell user catagory spending amount AND percent for rent ("You spend $XX.XX on rent and that is XX% of your income")
-print("You spend ") 
-print(rent)
-print("on rent, and that is ")
-print(rentp)
-print("% of your income.")
+
 # tell user catagory spending amount AND percent for utilities ("You spend $XX.XX on utilities and that is XX% of your income")
 
 # tell user catagory spending amount AND percent for groceries ("You groceries $XX.XX on rent and that is XX% of your income")
