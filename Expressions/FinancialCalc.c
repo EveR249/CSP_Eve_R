@@ -19,7 +19,7 @@ int main(void){
     float savings = income/10;
     float spending = income - (rent+utilities+grocery+transpo+savings);
     float rentp = rent/income*100;
-    float spendingp = spending/income;
+    float spendingp = spending/income*100;
     float utilitiesp = utilities/income*100;
     float groceryp = grocery/income*100;
     float transpop = transpo/income*100;
