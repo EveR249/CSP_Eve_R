@@ -28,6 +28,6 @@ int main(void){
     printf("You spend $%.2f on groceries and that is %.2f percent of your income.\n", grocery, groceryp);
     printf("You spend $%.2f on transportation and that is %.2f percent of your income.\n", transpo, transpop);
     printf("You should save $%.2f every month and that is 10 percent of your income.\n", savings);
-    printf("You have $%.2f left to spend and that is %.2f of your income.\n", spending, spendingp);
+    printf("You have $%.2f left to spend and that is %.2f percent of your income.\n", spending, spendingp);
     return 0;
 }
