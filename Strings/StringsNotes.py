@@ -35,4 +35,12 @@
 sent = "The quick brown fox jumps over the lazy dog"
 
 print(sent.find("fox"))
-print(sent.split)
+word = sent.find("fox")
+print(sent[word:word+3])
+print(sent[4:9])
+print(len(sent))
+name = "Eve"
+print("Welcome to the program "+name)
+print(f"Welcome to the program {name}")
+percent = 89
+print(f"Your grade in this class is {percent:.1f}")
