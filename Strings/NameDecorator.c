@@ -1,4 +1,4 @@
-// Eve Richardson, Template
+// Eve Richardson, Name Decorator C
 #include <stdio.h>
 #include <string.h>
 
