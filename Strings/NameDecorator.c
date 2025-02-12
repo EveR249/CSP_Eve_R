@@ -9,8 +9,8 @@ char name[15];
 int main(void){
     printf("What is your name? (First name only)\n");
     scanf("%s", name);
+    strcat(name,smile2);
     strcat(smile1,name);
-    strcat(smile1,smile2);
     printf(smile1);
     return 0;
 }
