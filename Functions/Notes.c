@@ -20,13 +20,13 @@ void add2(int numOne, int numTwo){
 
 int main(void){
     //printf("Hello World\n");
-    //add2(3,2);
-    //add2(4,9);
-    //add2(9,0);
-    //add();
-    input("name");
-    input("verb");
-    input("place");
-    printf("%s was %s until they somehow reached %s\n", word("name", 50), word("verb", 50), inpwordut("place", 50));
+    add2(3,2);
+    add2(4,9);
+    add2(9,0);
+    add();
+    //input("name");
+    //input("verb");
+    //input("place");
+    //printf("%s was %s until they somehow reached %s\n", word("name", 50), word("verb", 50), inpwordut("place", 50));
     return 0;
 }
