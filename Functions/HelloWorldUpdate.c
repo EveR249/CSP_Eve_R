@@ -1,9 +1,9 @@
 //Eve Richardson Hello world update C
 #include <stdio.h>
 
-char name;
 
 void namesfunct(){
+    char name;
     printf("What is your name:\n");
     scanf("%s", name);
     printf("Hello, %s\n", name);
@@ -11,6 +11,7 @@ void namesfunct(){
 }
 
 int main(void){
-    namesfunct(name);
+    namesfunct();
+    
     return 0;
 }
