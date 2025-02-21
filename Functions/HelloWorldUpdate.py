@@ -2,13 +2,12 @@
 
 
 
-def names():
-    name = input("What is your name?\n")
-    
-    print(f"Hello {name}")
+def names(user):
+  
+    return input(f"Hello, {user}\n")
 
-names()
-names()
-names()
-names()
-names()
+name = names("Bob")
+name = names("Alex")
+name = names("Polly")
+name = names("Rita")
+name = names("Chris")
