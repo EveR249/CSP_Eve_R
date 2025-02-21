@@ -1,13 +1,13 @@
 #Eve Richardson Hello world Update Python
 
+name = input("What is your name: ")
 
-
-def names(user):
+def user(name):
   
-    return input(f"Hello, {user}\n")
+    return print(f"Hello, {name}\n")
 
-name = names("Bob")
-name = names("Alex")
-name = names("Polly")
-name = names("Rita")
-name = names("Chris")
+user(name)
+user("Alex")
+user("Polly")
+user("Rita")
+user("Chris")
