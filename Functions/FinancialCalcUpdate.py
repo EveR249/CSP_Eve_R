@@ -4,12 +4,17 @@ def info(income, amount, type):
     typepc = amount/income*100
     print(f"You spend ${amount:.2f} on {type} and that is {typepc:.2}% of your income.")
 
+def ask(type):
+    return input(f"What is your monthly {type}:\n")
+
 print("Hello, welcome to my budget calculator.\n")
-income = float(input("What is your monthly income?\n"))
-rent = float(input("What is your monthly rent?\n"))
-utilities = float(input("What is your monthly utilities spending?\n"))
-groceries = float(input("What is your monthly groceries spending?\n"))
-transpo = float(input("What is your monthly transportation spending?\n"))
+
+income = float(ask("income"))
+rent = float(ask("rent"))
+utilities = float(ask("utilities spending"))
+groceries = float(ask("groceries spending"))
+transpo = float(ask("transportation spending"))
+
 savings = float(income/10)
 spending = float(income-(rent+utilities+transpo+groceries+savings))
 spendingpc = float(spending/income)*100
