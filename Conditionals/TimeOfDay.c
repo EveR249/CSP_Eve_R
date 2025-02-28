@@ -9,7 +9,7 @@ int main(void){
 
     if (hour <= 11){
         printf("Good morning!\n");
-    }else if (hour <=3){
+    }else if (hour <=15){
         printf("Good afternoon!\n");
     }else{
         printf("Good evening!\n");
