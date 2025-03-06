@@ -7,7 +7,7 @@ int main(void){
     int famlength = sizeof(family)/sizeof(family[0]);
     int fam = 0;
     while(fam<famlength){
-        printf("%s\n", family[fam]);
+        printf("Hello, %s Richardson!\n", family[fam]);
         fam++;
     }
 
