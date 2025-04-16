@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="UTF-8">
+        <title>CSS Notes</title>
+        <!--Embedded style sheet-->
+        <style>
+            *{
+                background-color: rgb(154, 231, 227);
+            }
+            li{
+                color:coral;
+            }
+
+            .intro{
+                color:red;
+                text-align:center;
+            }
+            #even{
+                color:darkolivegreen;
+                font-size:20px;
+            }
+            .image-src{
+                font-size: 10px;
+                color:gray;
+            }
+            img{
+                width: 25%;
+            }
+            h1{
+                font-size: 5em;
+                text-align: center;
+                text-decoration:
+                underline;
+            }
+
+        </style>
+    </head>
+    <body>
+        <h1>HTML Advanced Notes</h1>
+        <p class="intro">Nesting an html tag is putting it inside of another one. H tags cannot be nested and others have to be nested</p>
+        <div>
+        <ol>
+            <li>li tags must be nested</li>
+            <li id="even">what appears on the page is nested in the body tag</li>
+        </ol>
+        </div>
+        <div>
+        <ul style="color:chocolate"> <!--Don't do this-->
+            <li>Butterfinger</li>
+            <li id="even">Crunch</li>
+            <li>100 Grand</li>
+        </ul>
+        </div>
+        <dl>
+            <dt>Aang</dt>
+            <dd>The last airbender, the avatar.</dd>
+            <dt>Katara</dt>
+            <dd>Water bender from the south pole.</dd>
+        </dl>
+        <p>Attributes are Information that is given to the computer inside of the opening tag</p>
+        <a href="https://www.google.com/search?sca_esv=0215ca7c86a2fe5f&rlz=1C1ONGR_enUS1156US1156&q=noodles&udm=2&fbs=ABzOT_CWdhQLP1FcmU5B0fn3xuWpA-dk4wpBWOGsoR7DG5zJBsxayPSIAqObp_AgjkUGqekYoUzDaOcDDjQfK4KpR2OI4nYy1x80mmSpqaOOUqZO6gr00dZrISKZjGWQiIFR5kVMKaNG3cA2IR88nvlz3xNV0bEOrDse2A8UyRx_2CUI8FcRKCy5dU0eIi6fOGp3web5ORl0npj8eSJyn6mKydkaWPfgwg&sa=X&ved=2ahUKEwiChtOl6teMAxXaE0QIHcJiM2QQtKgLegQIDhAB&biw=1278&bih=788&dpr=1&safe=active&ssui=on"target="_blank">Link to fun things<br></a>
+        <img src="https://www.seriouseats.com/thmb/2wkOy_jiv-XSL2kJaYpMy5b_wwk=/1500x0/filters:no_upscale():max_bytes(150000):strip_icc()/SEA-SoupsandStewsMPP-MisoToriPaitanRamen-FredHardy-ba831cd42b6140d48b90f4ce1afa3ede.jpg">
+        <p class="image-src">Image from https://www.seriouseats.com/miso-chicken-paitan-ramen</p>
+    </body>
+</html>
