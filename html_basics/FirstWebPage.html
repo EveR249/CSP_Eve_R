@@ -5,37 +5,63 @@
         <title>First Web Page</title>
         <style>
             img{
-                width:15%;
+                width:35%;
             }
             *{
                 background-color: rgb(167, 204, 184);
-            }
-            *{
                 color: rgb(5, 78, 50);
+                font-family: monospace;
+                padding: 10px;
+                margin:10px
             }
             h1{
                 text-align: center;
             }
+            #Content{
+                display: grid;
+                grid-template-columns: 1fr 1fr 1fr;
+            }
+            #Water{
+                border: 2px dashed rgb(5, 78, 50);
+            }
+            #Acrylic{
+                border: 2px dashed rgb(5, 78, 50);
+            }
+            #Oil{
+                border: 2px dashed rgb(5, 78, 50);
+            }
+
         </style>
     </head>
     <body>
         <h1>Arts and Crafts</h1>
         <h3>Painting</h3>
              <p>There are many different types of painting, watercolor, acrylic, and oil. Painting can help you relax your mind and process emotions. My favorite type of painting is watercolor. You have so much more freedom as compared to other mediums.<br> It can be hard to paint when you're first starting out and things don't turn out the way you want them to. Don't be discouraged, it just takes practice. The more you paint the better you will get at it. </p>
+             <div id="Content">
              <dl>
-                <dt>Watercolor</dt>
-                <dd>Watercolor can sometimes be hard to work with because of how the pigment works and how water bleeds on the page. To make a light color you have to mix in more water but this also makes it more fluid and hard to control. You can add other types of paint on top of it for added effects. <a href="https://www.youtube.com/watch?app=desktop&v=65kzDOSKU60"target="_blank">Link to watercolor tutorials</a></dd>
-                <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcT03lWl_FG7SfKBaJ1GUIdiK_QnrvLOM6q9tw&s">
-                <dd>Image from https://www.pinterest.com/maryjogirdharry/easy-watercolor-paintings/</dd>
-                <dt>Acrylic</dt>
-                <dd>Acrylic paint is commonly used for crafts and small projects. It is also commonly added to other types of paint. Acrylics are in my opinion, the hardest to work with. They don't blend easily and they dry too fast, but they can create beatiful paintings. <a href="https://www.youtube.com/watch?v=zTjekJYqlog"target="_blank">Link to acrylic tutorials<br></a></dd>
-                <img src="https://www.artistsandillustrators.co.uk/wp-content/uploads/2024/04/315E8EC4-69F2-4B48-B18D-C7715D64A7F6_1_201_a-798x1024.jpeg">
-                <dd>Image from https://www.artistsandillustrators.co.uk/category/how-to/acrylic/</dd>
-                <dt>Oil</dt>
-                <dd>Oil paint is very stiff, this lets artists create 3D texture on a canvas. This can also make it hard to get a smooth surface because it does not self-level. Oil paints are also expensive, try acrylics before buying a lot on oil paints so you don't waste money. <a href="https://www.youtube.com/watch?v=A2gsfar6RaM"target="_blank">Link to oil tutorials</a></dd>
-                <img src="https://m.media-amazon.com/images/I/91u+X+8g5hL.jpg">
-                <dd>Image from https://www.amazon.com/Epicler-Painting-Paintings-Textured-Background/dp/B09N2K4Q28</dd>
+                <div id="Water">
+                    <dt>Watercolor</dt>
+                        <dd>Watercolor can sometimes be hard to work with because of how the pigment works and how water bleeds on the page. To make a light color you have to mix in more water but this also makes it more fluid and hard to control. You can add other types of paint on top of it for added effects.</dd>
+                        <dd><a href="https://www.youtube.com/watch?app=desktop&v=65kzDOSKU60"target="_blank">Link to watercolor tutorials</a></dd>
+                    <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcT03lWl_FG7SfKBaJ1GUIdiK_QnrvLOM6q9tw&s">
+                     <dd>Image from https://www.pinterest.com/maryjogirdharry/easy-watercolor-paintings/</dd>
+                </div>
+                <div id="Acrylic">
+                    <dt>Acrylic</dt>
+                        <dd>Acrylic paint is commonly used for crafts and small projects. It is also commonly added to other types of paint. Acrylics are in my opinion, the hardest to work with. They don't blend easily and they dry too fast, but they can create beatiful paintings.</dd>
+                        <dd><a href="https://www.youtube.com/watch?v=zTjekJYqlog"target="_blank">Link to acrylic tutorials</a></dd>
+                    <img src="https://www.artistsandillustrators.co.uk/wp-content/uploads/2024/04/315E8EC4-69F2-4B48-B18D-C7715D64A7F6_1_201_a-798x1024.jpeg">
+                    <dd>Image from https://www.artistsandillustrators.co.uk/category/how-to/acrylic/</dd>
+                </div>
+                <div id="Oil">
+                    <dt>Oil</dt>
+                        <dd>Oil paint is very stiff, this lets artists create 3D texture on a canvas. This can also make it hard to get a smooth surface because it does not self-level. Oil paints are also expensive, try acrylics before buying a lot on oil paints so you don't waste money.</dd>
+                        <dd><a href="https://www.youtube.com/watch?v=A2gsfar6RaM"target="_blank">Link to oil tutorials</a></dd>
+                    <img src="https://m.media-amazon.com/images/I/91u+X+8g5hL.jpg">
+                    <dd>Image from https://www.amazon.com/Epicler-Painting-Paintings-Textured-Background/dp/B09N2K4Q28</dd>
+                </div>
              </dl>
+             </div>
         <h3>Art Block</h3>
             <p>Art block is a common problem that artists encounter and it can be hard to overcome. What I do to help with art block is look through my camera roll and try to draw one of my favorite photos. Usually while doing this I can observe something specifically found in the photo that I want to include in my art. This helps my creative flow and gives me ideas.</p>
     </body>
