@@ -29,3 +29,8 @@ img{
     justify-content: center;
     align-items: flex-end;
 }
+#no{
+    display:block;
+    margin: auto;
+    width: 50%;
+}
