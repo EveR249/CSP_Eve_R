@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="UTF-8">
+        <title>JS Notes</title>
+        <script src="notes.js"></script>
+        <style>
+            img{
+                height: 100px;
+            }
+            #hidden{
+                display:none;
+            }
+        </style>
+    </head>
+    <body>
+        <h1 id="title" onclick="show()">Title of page.</h1>
+        <p id="dont" onclick="pop()" >Don't click me.</p>
+        <button id="button" onmouseover="highlight()" onmouseout="normal()" onclick="hello()">Click me.</button>
+        <br>
+        <img id="image" onmouseover="change()"src="https://savethewhales.org/wp-content/uploads/2017/01/VaquitaHiRezCopyright-SaveTheWhales.jpeg" alt="Whoooooooohooooo"
+        height="100px">
+        <img id="hidden" src="https://earth.org/wp-content/uploads/2022/04/unnamed-68.jpg">
+    </body>
+</html>
