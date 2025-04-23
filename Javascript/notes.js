@@ -1,7 +1,8 @@
 let images = ["https://savethewhales.org/wp-content/uploads/2017/01/VaquitaHiRezCopyright-SaveTheWhales.jpeg","https://kids.earth.org/wp-content/uploads/2022/07/Untitled-design-2022-04-12T161151.368.jpg","https://earth.org/wp-content/uploads/2022/04/unnamed-68.jpg"]
 document = notes.html 
 function hello(){
-    document.getElementById("title").innerHTML = "Hello world."
+    let name = window.prompt("What is your name?", "Person")
+    document.getElementById("title").innerHTML = "Hello " + name +"!"
 }
 count = 0
 function change(){
@@ -26,4 +27,11 @@ function normal(){
 
 function show(){
     document.getElementById("hidden").style.display = "block"
+}
+function pop(){
+    window.alert("DON'T CLICK")
+}
+function push(){
+    document.getElementById("button").style.color = "yellow"
+    document.getElementById("button").style.backgroundColor = "green"
 }
