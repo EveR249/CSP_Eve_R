@@ -4,10 +4,8 @@
         <meta charset="UTF-8">
         <title>First Web Page</title>
         <style>
-            img{
-                width:35%;
-            }
-            *{
+           
+            body{
                 background-color: rgb(167, 204, 184);
                 color: rgb(5, 78, 50);
                 font-family: monospace;
@@ -21,6 +19,9 @@
                 display: grid;
                 grid-template-columns: 1fr 1fr 1fr;
             }
+            img{
+                width:35%;
+            }
             #Water{
                 border: 2px dashed rgb(5, 78, 50);
             }
@@ -29,6 +30,9 @@
             }
             #Oil{
                 border: 2px dashed rgb(5, 78, 50);
+            }
+            #extra{
+                display: none;
             }
 
         </style>
@@ -57,12 +61,15 @@
                     <dt>Oil</dt>
                         <dd>Oil paint is very stiff, this lets artists create 3D texture on a canvas. This can also make it hard to get a smooth surface because it does not self-level. Oil paints are also expensive, try acrylics before buying a lot on oil paints so you don't waste money.</dd>
                         <dd><a href="https://www.youtube.com/watch?v=A2gsfar6RaM"target="_blank">Link to oil tutorials</a></dd>
-                    <img src="https://m.media-amazon.com/images/I/91u+X+8g5hL.jpg">
-                    <dd>Image from https://www.amazon.com/Epicler-Painting-Paintings-Textured-Background/dp/B09N2K4Q28</dd>
+                    <img id="image" onmouseover="paint()" src="https://karabullockart.com/wp-content/uploads/2020/01/Half-In-Half-Out-10x10-1.jpeg">
+                    <dd>Image from https://karabullockart.com/product/opbcwithsarah/</dd>
                 </div>
              </dl>
              </div>
+             <button id="button" onmouseover="flash()" onmousedown="flashtwo()" onmouseup="flash()" onclick="show()">Extra Info</button>
+        <div id="extra" >
         <h3>Art Block</h3>
             <p>Art block is a common problem that artists encounter and it can be hard to overcome. What I do to help with art block is look through my camera roll and try to draw one of my favorite photos. Usually while doing this I can observe something specifically found in the photo that I want to include in my art. This helps my creative flow and gives me ideas.</p>
+        </div>
     </body>
 </html>
