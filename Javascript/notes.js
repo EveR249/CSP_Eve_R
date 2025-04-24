@@ -35,3 +35,14 @@ function push(){
     document.getElementById("button").style.color = "yellow"
     document.getElementById("button").style.backgroundColor = "green"
 }
+
+function more(){
+    if(document.getElementById("ex").style.display != "flex"){
+        document.getElementById("ex").style.display = "flex"
+        document.getElementById("shw").innerHTML = "Show Less"
+    }else{
+        document.getElementById("ex").style.display = "none"
+        document.getElementById("shw").innerHTML = "Show More"
+    }
+    
+}
