@@ -1,7 +1,15 @@
 document = FirstWebPage.html
+let images = ["https://karabullockart.com/wp-content/uploads/2020/01/Half-In-Half-Out-10x10-1.jpeg", "https://m.media-amazon.com/images/I/91u+X+8g5hL.jpg"]
 
-function paint(){
-    document.getElementById("three").src = "https://m.media-amazon.com/images/I/91u+X+8g5hL.jpg"
+
+count = 0
+function change(){
+    document.getElementById("sign").src=images[count]
+    if(count === 1){
+        count = 0
+    }else{
+        count+=1
+    }
 }
 
 function flash(){
