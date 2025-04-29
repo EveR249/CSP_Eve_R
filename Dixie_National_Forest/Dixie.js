@@ -1,4 +1,4 @@
-let images = ["https://www.visitutah.com/azure/cmsroot/visitutah/media/site-assets/three-season-photography/southwestern-utah/southwestern-4/dixie-national-forest_more-than-just-forests_more-than-just-parks.jpg","https://www.nationalforests.org/assets/header-images/_1200x630_crop_center-center_82_none/Dixie-NF_Scenic-byway-12_Joseph-Cesare.jpg?mtime=1428073414"]
+let images = ["https://www.visitutah.com/azure/cmsroot/visitutah/media/site-assets/three-season-photography/southwestern-utah/southwestern-4/dixie-national-forest_more-than-just-forests_more-than-just-parks.jpg","https://www.rvngo.com/onthego/wp-content/uploads/2023/12/AdobeStock_99881548-scaled.jpeg"]
 
 function show(){
     document.getElementById("hidden").style.display = "block"

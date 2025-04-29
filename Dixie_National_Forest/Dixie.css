@@ -2,13 +2,15 @@ body{
     background-color: rgb(88, 143, 95);
     margin: 25px;
     padding: 10px;
+    color:rgb(25, 63, 30);
+    font-family: monospace, arial;
 }
 h1{
     justify-self: center;
     color:rgb(25, 63, 30)
 }
 img{
-    width: 33%;
+    width: 35%;
     border-radius: 10px;
     border: 5px solid rgb(25, 63, 30);
 }
@@ -16,7 +18,17 @@ img{
     display: none;
 }
 #imagelay{
-    display: flex;
-    justify-content: center;
+    display: grid;
+    grid-template-columns: 1fr;
+    justify-content: left;
     padding: 20px;
+}
+#content{
+    display: flex;
+    flex-direction: row;
+    justify-content: left;
+    padding: 20px;
+}
+ul{
+    justify-items: left;
 }
