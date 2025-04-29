@@ -17,18 +17,11 @@ img{
 #hidden{
     display: none;
 }
-#imagelay{
-    display: grid;
-    grid-template-columns: 1fr;
-    justify-content: left;
-    padding: 20px;
-}
 #content{
-    display: flex;
-    flex-direction: row;
-    justify-content: left;
+    display: grid;
+    grid-template-columns: 2fr 1fr;
     padding: 20px;
 }
-ul{
-    justify-items: left;
+#text{
+    justify-content: left;
 }
