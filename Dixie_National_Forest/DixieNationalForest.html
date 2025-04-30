@@ -5,26 +5,46 @@
         <title>Dixie National Forest</title>
         <script src="Dixie.js"></script>
         <link rel="StyleSheet" href="Dixie.css">
+        <style>
+            #other{
+                display: none;
+            }
+        </style>
     </head>
     <body>
         <h1>Dixie National Forest</h1>
-        <p>Dixie National Forest is a great place to visit. It has a lot to offer and is very unique. Many people visit the forest each year and some even return to visit. Here are some of the things people love about it:</p>
         <div id="content">
         <div id="imagelay">
         <img src="https://octopup.org/img/utah2005/m/Utah-2005-1044-10131233--Lower-Falls-Trail--Waterfall.jpg"><br>
         <img id="sign" onmouseover="change()" src="https://www.rvngo.com/onthego/wp-content/uploads/2023/12/AdobeStock_99881548-scaled.jpeg"><br>
         <img src="https://images.rove.me/w_1920,q_85/x3j3rragjyh7qo9t9xlq/utah-dixie-national-forest.jpg">
         </div>
+        <p>Dixie National Forest is a great place to visit. It has a lot to offer and is very unique. Many people visit the forest each year and some even return to visit. Here are some of the things people love about it:</p>
         <div id="text">
         <ul>
-            <li>Great photo spots</li>
+            <li>Great photo spots<br>---Cascade Falls is a great photo spot, the natural red rock and flowing water can make for some beautiful pictures.</li>
             <div id="rock">
-            <li>Rock formations</li>
+            <li>Rock formations<br>---Dixie National forest has red rock that looks very cool and it worth seeing.</li>
             </div>
-            <li>Hikes</li>
-            <li>Great views</li>
+            <li>Hikes<br>---If you want to see the best parts of the forest, they have hiking trails that pass through them.</li>
+            <li>Great views<br>--- Along these hiking trails are beautiful views. They incorporate all the reasons above and make Dixie a great place to visit.</li>
         </ul>
         </div>
+        </div>
+        <button id="button" onmouseover="flash()" onmouseout="normal()" onmousedown="press()" onmouseup="flash()" onclick="show()">Show More</button>
+        <div id="other">
+            <h4>Other Activities</h4>
+            <div id="act">
+            <ul>
+                <li>Biking</li>
+                <li>Fishing</li>
+                <li>Camping</li>
+                <li>Stargazing</li>
+            </ul>
+            </div>
+            <div id="star">
+                <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSR5R65xibRdliHRCgf-5Kb7tiP4PDHXekaPA&s">
+            </div>
         </div>
     </body>
 </html>

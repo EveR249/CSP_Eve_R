@@ -7,15 +7,6 @@ function show(){
 function hide(){
     document.getElementById("hidden").style.display = "none"
 }
-function showbutton(){
-    if(document.getElementById("extra").style.display != "block"){
-        document.getElementById("extra").style.display = "block"
-        document.getElementById("show").innerHTML = "Show Less"
-    }else{
-        document.getElementById("extra").style.display = "none"
-        document.getElementById("show").innerHTML = "Show More"
-    }
-}
 
 count = 0
 function change(){
@@ -25,4 +16,33 @@ function change(){
     }else{
         count+=1
     }
+}
+function flash(){
+    document.getElementById("button").style.backgroundColor = "black"
+    document.getElementById("button").style.color = "sienna"
+}
+
+
+function normal(){
+    document.getElementById("button").style.color = "black"
+    document.getElementById("button").style.backgroundColor = "darkgreen"
+}
+
+function press(){
+    document.getElementById("button").style.color = "black"
+    document.getElementById("button").style.backgroundColor = "sienna"
+}
+
+function show(){
+    if(document.getElementById("other").style.display != "block"){
+        document.getElementById("other").style.display = "block"
+        document.getElementById("button").innerHTML = "Show Less"
+    }else{
+        document.getElementById("other").style.display = "none"
+        document.getElementById("button").innerHTML = "Show More"
+    }
+    
+}
+function start(){
+    document.getElementById("star").style.display = "flex"
 }

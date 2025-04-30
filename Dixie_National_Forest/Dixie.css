@@ -10,18 +10,25 @@ h1{
     color:rgb(25, 63, 30)
 }
 img{
-    width: 35%;
+    width: 30%;
     border-radius: 10px;
     border: 5px solid rgb(25, 63, 30);
+    margin: 20px
 }
 #hidden{
     display: none;
 }
-#content{
-    display: grid;
-    grid-template-columns: 2fr 1fr;
-    padding: 20px;
-}
 #text{
     justify-content: left;
+}
+#imagelay{
+    display: flex;
+    justify-content: center;
+    padding: 20px;
+}
+#other{
+    display: none;
+}
+#star{
+    width: 400px;
 }
