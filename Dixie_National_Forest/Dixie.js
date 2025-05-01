@@ -34,8 +34,8 @@ function press(){
 }
 
 function show(){
-    if(document.getElementById("other").style.display != "block"){
-        document.getElementById("other").style.display = "block"
+    if(document.getElementById("other").style.display != "grid"){
+        document.getElementById("other").style.display = "grid"
         document.getElementById("button").innerHTML = "Show Less"
     }else{
         document.getElementById("other").style.display = "none"

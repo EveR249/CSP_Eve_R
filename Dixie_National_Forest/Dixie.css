@@ -30,5 +30,15 @@ img{
     display: none;
 }
 #star{
-    width: 400px;
+    display: flex;
+    width: 90%;
+    justify-self: center;
+    margin-right: 10px;
+}
+ul{
+    background-color: rgb(123, 177, 123);
+    border-radius: 10px;
+    border: 5px solid rgb(25, 63, 30);
+    padding: 20px;
+    padding-left: 45px;
 }
