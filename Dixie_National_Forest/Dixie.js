@@ -17,8 +17,8 @@ function change(){
         count+=1
     }
 }
-function flash(){
-    document.getElementById("button").style.backgroundColor = "black"
+function press(){
+    document.getElementById("button").style.backgroundColor = "white"
     document.getElementById("button").style.color = "sienna"
 }
 
@@ -28,8 +28,8 @@ function normal(){
     document.getElementById("button").style.backgroundColor = "darkgreen"
 }
 
-function press(){
-    document.getElementById("button").style.color = "black"
+function flash(){
+    document.getElementById("button").style.color = "white"
     document.getElementById("button").style.backgroundColor = "sienna"
 }
 
