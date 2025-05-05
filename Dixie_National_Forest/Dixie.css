@@ -33,7 +33,7 @@ img{
     display: flex;
     width: 90%;
     justify-self: center;
-    margin-right: 10px;
+    margin: 10px;
 }
 ul{
     background-color: rgb(123, 177, 123);
